@@ -15,5 +15,10 @@ int main()
     {
         cout << v[i] << endl;
     }
+    // for each loop
+    for (int ele : v)
+    {
+        cout << ele << " ";
+    }
     return 0;
 }
