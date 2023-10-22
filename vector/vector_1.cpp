@@ -27,6 +27,12 @@ int main()
     v.resize(10);
     cout << "Size:" << v.size() << endl;
     cout << "Capacity:" << v.capacity() << endl;
+    v.pop_back();
+    v.pop_back();
+    cout << "Size:" << v.size() << endl;
+    cout << "Capacity:" << v.capacity() << endl;
+    // size will be the number of element present
+    // capacity can be equal to size or greater .
 
     return 0;
 }
